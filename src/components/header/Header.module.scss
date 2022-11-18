@@ -1,0 +1,12 @@
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    color: rgb(201, 212, 255);
+  }
+}
