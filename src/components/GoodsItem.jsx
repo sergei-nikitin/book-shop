@@ -13,7 +13,7 @@ const GoodsItem = (props) => {
   const { name, price, setOrder, poster, id } = props;
 
   return (
-    <Grid className="item" item xs={12} md={4} key={id}>
+    <Grid className="item" item xs={2} md={4} key={id}>
       <Card sx={{ height: '100%' }}>
         <div className="wrapperclip">
           <span className="borderclip">

@@ -7,7 +7,7 @@ const GoodsList = (props) => {
   const { goods, setOrder } = props;
 
   return (
-    <Grid className="list" container spacing={2}>
+    <Grid className="list" container spacing={2} columns={{ xs: 8 }}>
       {goods.map((item) => (
         <GoodsItem key={item.id} setOrder={setOrder} {...item} />
       ))}
